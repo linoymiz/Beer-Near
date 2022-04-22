@@ -3,7 +3,7 @@
   font-family: "Lato";
   font-size: 0.7rem;
 }
-.card{
+.card {
   box-shadow: 0;
   height: 100px;
   display: flex;
@@ -11,27 +11,27 @@
   margin-bottom: 8px;
   overflow: hidden;
 }
-.card-wrapper{
+.card-wrapper {
   width: 100%;
   overflow: hidden;
 }
-.card-wrapper :hover{
+.card-wrapper :hover {
   background-color: rgb(239, 250, 252);
 }
-.card-img{
+.card-img {
   width: 10% !important;
   height: 60%;
-  padding:10px;
+  padding: 10px;
   object-fit: contain !important;
 }
-.card-title{
+.card-title {
   font-size: 1rem;
   padding-top: 10px;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space:nowrap;
+  white-space: nowrap;
 }
-.card-content{
+.card-content {
   width: 80vh;
   height: inherit;
   margin: 10px;
@@ -39,31 +39,26 @@
   overflow: hidden;
   margin: 0 !important;
 }
-.card-content #subtitle{
+.subtitle {
   font-weight: bold;
   color: goldenrod;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space:nowrap;
+  white-space: nowrap;
 }
-.card-content #desc{
+.desc {
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space:nowrap;
+  white-space: nowrap;
 }
-.title-category{
+.title-category {
   padding-left: 16px;
   text-align: left;
   color: rgb(131, 129, 129);
 }
-.tooltip{
+.tooltip {
   background-color: black;
 }
-.Button{
-  font-family: "Lato" !important;
-  font-size: 0.7rem !important;
-  text-transform: none !important;
-}
-.Button #svgBtn{
+.Button #svgBtn {
   font-size: inherit;
 }
