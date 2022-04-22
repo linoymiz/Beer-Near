@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  font-family: "Lato";
+  font-size: 0.7rem;
+}
+.card{
+  box-shadow: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  overflow: hidden;
+}
+.card-wrapper{
+  width: 100%;
+  overflow: hidden;
+}
+.card-wrapper :hover{
+  background-color: rgb(239, 250, 252);
+}
+.card-img{
+  width: 10% !important;
+  height: 60%;
+  padding:10px;
+  object-fit: contain !important;
+}
+.card-title{
+  font-size: 1rem;
+  padding-top: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+.card-content{
+  width: 80vh;
+  height: inherit;
+  margin: 10px;
+  text-align: left;
+  overflow: hidden;
+  margin: 0 !important;
+}
+.card-content #subtitle{
+  font-weight: bold;
+  color: goldenrod;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+.card-content #desc{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+.title-category{
+  padding-left: 16px;
+  text-align: left;
+  color: rgb(131, 129, 129);
+}
+.tooltip{
+  background-color: black;
+}
+.Button{
+  font-family: "Lato" !important;
+  font-size: 0.7rem !important;
+  text-transform: none !important;
+}
+.Button #svgBtn{
+  font-size: inherit;
+}
