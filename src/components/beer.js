@@ -6,7 +6,6 @@ import { styled } from "@mui/material/styles";
 
 export default function Beer(props) {
   const { name, img, tag, desc, ings } = props;
-  // const MAX_LIMIT = 200
   const ingsStr = filterIngredients(ings);
   const BootstrapTooltip = styled(({ className, ...props }) => (
     <Tooltip {...props} arrow classes={{ popper: className }} />
@@ -16,7 +15,6 @@ export default function Beer(props) {
     },
     [`& .${tooltipClasses.tooltip}`]: {
       backgroundColor: theme.palette.common.black,
-      //   objectFit: "none",
       inlineSize: "min-content",
     },
   }));

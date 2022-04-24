@@ -39,7 +39,7 @@ export default function Home() {
 
   return (
     <Box component="container">
-      <BeerList beerData={data} firstView={page.isFirstView} />
+      <BeerList beers={data.beers} firstView={page.isFirstView} />
       <Button
         sx={{ fontFamily: "Lato", fontSize: "0.7rem", textTransform: "none" }}
         className="Button"
